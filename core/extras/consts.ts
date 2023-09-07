@@ -10,6 +10,7 @@ export default {
         live: /^live:\d{14,20}$/,
         steam: /^steam:1100001[0-9A-Fa-f]{8}$/,
         xbl: /^xbl:\d{14,20}$/,
+        devoted: /^devoted:[^\s]+/,
     },
     regexValidHwidToken: /^[0-9A-Fa-f]{1,2}:[0-9A-Fa-f]{64}$/,
     regexSvLicenseOld: /^\w{32}$/,

@@ -140,6 +140,7 @@ export const parsePlayerIds = (ids: string[]) => {
         live: null,
         steam: null,
         xbl: null,
+        devoted: null,
     }
 
     for (const idString of ids) {
@@ -185,6 +186,7 @@ export type PlayerIdsObjectType = {
     live: string | null;
     steam: string | null;
     xbl: string | null;
+    devoted: string | null;
 };
 
 
